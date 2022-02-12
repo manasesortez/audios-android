@@ -5,9 +5,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_traslater"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/ic_traslater"
         android:supportsRtl="true"
         android:theme="@style/bitcoinOne"
         tools:ignore="AllowBackup">
@@ -17,14 +17,14 @@
             android:theme="@style/bitcoinOne">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/bitcoinTwo">
-        </activity>
+            android:theme="@style/bitcoinTwo" />
     </application>
 
 </manifest>

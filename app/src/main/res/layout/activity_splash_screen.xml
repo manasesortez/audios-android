@@ -5,15 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#003048">
+    android:background="#90e0ef">
 
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Traslate Learn says Welcome"
-        android:textColor="#fff"
+        android:text="Learning says Welcome"
+        android:textColor="#003048"
+
         android:textSize="50px"
         android:fontFamily="@font/seguisb"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,6 +24,17 @@
         app:layout_constraintVertical_bias="0.948"
         tools:ignore="HardcodedText,PxUsage" />
 
-
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/lenguages"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
