@@ -1,4 +1,4 @@
-package com.amtodev.audios_kids.Alphabet_en;
+package com.amtodev.audios_kids.Number_en;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -12,9 +12,9 @@ import android.widget.ImageView;
 
 import com.amtodev.audios_kids.R;
 
-public class i_en extends Fragment {
+public class four_en extends Fragment {
 
-    public i_en() {
+    public four_en() {
         // Required empty public constructor
     }
 
@@ -23,10 +23,9 @@ public class i_en extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View rootView = inflater.inflate(R.layout.fragment_i_en, container, false);
-
-        play = (ImageView) rootView.findViewById(R.id.i_english);
-        final MediaPlayer sound = MediaPlayer.create(getActivity(), R.raw.i_en);
+        View  rootView = inflater.inflate(R.layout.fragment_four_en, container, false);
+        play = (ImageView) rootView.findViewById(R.id.four_english);
+        final MediaPlayer sound = MediaPlayer.create(getActivity(), R.raw.four_en);
         play.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -34,7 +33,6 @@ public class i_en extends Fragment {
                 sound.start();
             }
         });
-
         return rootView;
     }
 }

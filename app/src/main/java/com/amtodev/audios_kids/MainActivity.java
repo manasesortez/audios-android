@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                Intent intent = new Intent(getApplicationContext(),SlideTabAlphabet_en.class);
+                Intent intent = new Intent(getApplicationContext(),Slider_Alphabet_en.class);
                 startActivity(intent);
             }
         });
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                Intent intent = new Intent(getApplicationContext(),SlideTabAlphabet_es.class);
+                Intent intent = new Intent(getApplicationContext(),Slider_Alphabet_es.class);
                 startActivity(intent);
             }
         });
@@ -41,20 +41,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                Intent intent = new Intent(getApplicationContext(),SlideTabNumber_en.class);
+                Intent intent = new Intent(getApplicationContext(),Slider_Number_en.class);
                 startActivity(intent);
             }
         });
-        CardView es_number = findViewById(R.id.es_number);
-        es_number.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                Intent intent = new Intent(getApplicationContext(),SlideTabNumber_es.class);
-                startActivity(intent);
-            }
-        });
+
 
 
 

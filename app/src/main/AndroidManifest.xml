@@ -12,6 +12,15 @@
         android:theme="@style/bitcoinOne"
         tools:ignore="AllowBackup">
         <activity
+            android:name=".Slider_Number_en"
+            android:exported="false" />
+        <activity
+            android:name=".Slider_Alphabet_es"
+            android:exported="false" />
+        <activity
+            android:name=".Slider_Alphabet_en"
+            android:exported="false" />
+        <activity
             android:name=".splash_screen"
             android:exported="true"
             android:theme="@style/bitcoinOne">

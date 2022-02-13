@@ -105,7 +105,7 @@
                                 android:layout_marginStart="8dp"
                                 android:layout_marginEnd="8dp"
                                 android:fontFamily="@font/seguisb"
-                                android:text="English Alphabet"
+                                android:text="English Vowels"
                                 android:textColor="#334956"
                                 android:textSize="16sp"
                                 card_view:layout_constraintBottom_toBottomOf="parent"
@@ -153,7 +153,7 @@
                                 android:layout_marginStart="8dp"
                                 android:layout_marginEnd="8dp"
                                 android:fontFamily="@font/seguisb"
-                                android:text="Spanish Alphabet"
+                                android:text="Spanish Vowels"
                                 android:textColor="#334956"
                                 android:textSize="16sp"
                                 card_view:layout_constraintBottom_toBottomOf="parent"
@@ -215,55 +215,6 @@
                                 android:layout_marginStart="8dp"
                                 android:layout_marginEnd="8dp"
                                 android:src="@drawable/ic_numbers_en"
-                                android:layout_marginBottom="44dp"
-                                card_view:layout_constraintBottom_toBottomOf="parent"
-                                card_view:layout_constraintEnd_toEndOf="parent"
-                                card_view:layout_constraintStart_toStartOf="parent"
-                                tools:ignore="ContentDescription" />
-                        </androidx.constraintlayout.widget.ConstraintLayout>
-
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-                        android:id="@+id/es_number"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="40dp"
-                        android:layout_marginTop="50dp"
-                        android:layout_marginRight="50dp"
-                        android:layout_marginBottom="50dp"
-                        android:clickable="true"
-                        card_view:cardBackgroundColor="#F4F4F4"
-                        card_view:cardCornerRadius="10dp"
-                        tools:ignore="KeyboardInaccessibleWidget,RtlHardcoded">
-
-                        <androidx.constraintlayout.widget.ConstraintLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            tools:ignore="ExtraText">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginEnd="8dp"
-                                android:fontFamily="@font/seguisb"
-                                android:text="Spanish Numbers"
-                                android:textColor="#334956"
-                                android:textSize="16sp"
-                                card_view:layout_constraintBottom_toBottomOf="parent"
-                                card_view:layout_constraintEnd_toEndOf="parent"
-                                card_view:layout_constraintStart_toStartOf="parent"
-                                tools:ignore="HardcodedText,MissingConstraints,MissingPrefix" />
-
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_marginStart="8dp"
-                                android:layout_marginTop="8dp"
-                                android:layout_marginEnd="8dp"
-                                android:src="@drawable/ic_numbers_es"
                                 android:layout_marginBottom="44dp"
                                 card_view:layout_constraintBottom_toBottomOf="parent"
                                 card_view:layout_constraintEnd_toEndOf="parent"
