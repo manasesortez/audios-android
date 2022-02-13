@@ -30,16 +30,20 @@
         <entry key="app/src/main/res/layout/activity_slider_number_es.xml" value="0.17395833333333333" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_a_en.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_a_es.xml" value="0.17395833333333333" />
         <entry key="app/src/main/res/layout/fragment_b.xml" value="0.17395833333333333" />
         <entry key="app/src/main/res/layout/fragment_e_en.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_e_es.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_eight.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_eight_en.xml" value="0.17395833333333333" />
         <entry key="app/src/main/res/layout/fragment_five_en.xml" value="0.17395833333333333" />
         <entry key="app/src/main/res/layout/fragment_four_en.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_i_en.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_i_es.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_main.xml" value="0.17395833333333333" />
         <entry key="app/src/main/res/layout/fragment_nine_en.xml" value="0.17395833333333333" />
         <entry key="app/src/main/res/layout/fragment_o_en.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_o_es.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_one_en.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_seven_en.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_six_en.xml" value="0.17395833333333333" />
@@ -51,6 +55,7 @@
         <entry key="app/src/main/res/layout/fragment_three_en.xml" value="0.17395833333333333" />
         <entry key="app/src/main/res/layout/fragment_two_en.xml" value="0.17395833333333333" />
         <entry key="app/src/main/res/layout/fragment_u_en.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_u_es.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_zero_en.xml" value="0.17395833333333333" />
       </map>
     </option>
